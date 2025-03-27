@@ -66,8 +66,8 @@ const enableBoxes = () => {
     }
 }
 
-const showWinner = (winner) => {{
-    win.innerText = "Congratulation winner is", winner;
+const showWinner = (Winner) => {{
+    win.innerText = "Congratulation winner is", Winner;
     Winner.classList.remove("hide");
     disableBoxes();
 
